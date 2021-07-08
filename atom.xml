@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://iogogogo.gitee.io/"/>
-  <updated>2021-07-05T15:01:05.969Z</updated>
+  <updated>2021-07-05T15:48:10.925Z</updated>
   <id>http://iogogogo.gitee.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>oh-my-zsh国内镜像安装和更新方法</title>
+    <link href="http://iogogogo.gitee.io/2021/07/05/china-mirrors-oh-my-zsh/"/>
+    <id>http://iogogogo.gitee.io/2021/07/05/china-mirrors-oh-my-zsh/</id>
+    <published>2021-07-05T15:43:13.000Z</published>
+    <updated>2021-07-05T15:48:10.925Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;安装依赖&quot;&gt;&lt;a href=&quot;#安装依赖&quot; class=&quot;headerlink&quot; title=&quot;安装依赖&quot;&gt;&lt;/a&gt;安装依赖&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;zsh&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;安装git&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="zsh" scheme="http://iogogogo.gitee.io/categories/zsh/"/>
+    
+    
+      <category term="zsh" scheme="http://iogogogo.gitee.io/tags/zsh/"/>
+    
+  </entry>
   
   <entry>
     <title>Spring Boot 2.x使用mybatis</title>
@@ -529,35 +560,6 @@
     
     
       <category term="Gson" scheme="http://iogogogo.gitee.io/tags/Gson/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>当Gson遇上Java8中的日期API</title>
-    <link href="http://iogogogo.gitee.io/2020/06/23/gson-java8-datetime/"/>
-    <id>http://iogogogo.gitee.io/2020/06/23/gson-java8-datetime/</id>
-    <published>2020-06-23T13:45:00.000Z</published>
-    <updated>2021-07-05T14:31:47.569Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&amp;emsp;Java8开始，JDK中提供了一组新的日期&lt;code&gt;API&lt;/code&gt;，当我们需要序列化数据成json时，经常会用到&lt;code&gt;Gson&lt;/code&gt;。当&lt;code&gt;Java8&lt;/code&gt;中的日期&lt;code&gt;API&lt;/code&gt;遇上&lt;code&gt;Gson&lt;/
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Gson" scheme="http://iogogogo.gitee.io/categories/Gson/"/>
-    
-    
-      <category term="Gson" scheme="http://iogogogo.gitee.io/tags/Gson/"/>
-    
-      <category term="Java8" scheme="http://iogogogo.gitee.io/tags/Java8/"/>
     
   </entry>
   

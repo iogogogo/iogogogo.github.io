@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>oh-my-zsh国内镜像安装和更新方法</title>
+      <link href="/2021/07/05/china-mirrors-oh-my-zsh/"/>
+      <url>/2021/07/05/china-mirrors-oh-my-zsh/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h2><ol><li>git</li><li>zsh</li></ol><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p><a href="https://iogogogo.gitee.io/2020/09/01/soft-install-git/">CentOS 升级安装最新版git</a></p><h2 id="下载码云安装包"><a href="#下载码云安装包" class="headerlink" title="下载码云安装包"></a>下载码云安装包</h2><pre class=" language-sh"><code class="language-sh">wget https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh</code></pre><h2 id="编辑install-sh"><a href="#编辑install-sh" class="headerlink" title="编辑install.sh"></a>编辑install.sh</h2><p>找到以下部分</p><pre class=" language-sh"><code class="language-sh"># Default settingsZSH=${ZSH:-~/.oh-my-zsh}REPO=${REPO:-ohmyzsh/ohmyzsh}REMOTE=${REMOTE:-https://github.com/${REPO}.git}BRANCH=${BRANCH:-master}</code></pre><p>把</p><pre class=" language-sh"><code class="language-sh">REPO=${REPO:-ohmyzsh/ohmyzsh}REMOTE=${REMOTE:-https://github.com/${REPO}.git}</code></pre><p>替换为</p><pre class=" language-sh"><code class="language-sh">REPO=${REPO:-mirrors/oh-my-zsh}REMOTE=${REMOTE:-https://gitee.com/${REPO}.git}</code></pre><p>编辑后保存, 运行安装即可. (运行前先给install.sh权限)</p><h2 id="修改仓库地址"><a href="#修改仓库地址" class="headerlink" title="修改仓库地址"></a>修改仓库地址</h2><pre class=" language-bash"><code class="language-bash"><span class="token function">cd</span> ~/.oh-my-zsh<span class="token function">git</span> remote set-url origin https://gitee.com/mirrors/oh-my-zsh.git<span class="token function">git</span> pull</code></pre><h2 id="oh-my-zsh升级"><a href="#oh-my-zsh升级" class="headerlink" title="oh-my-zsh升级"></a>oh-my-zsh升级</h2><pre class=" language-shell"><code class="language-shell">omz update # 推荐使用# 或者upgrade_oh_my_zsh # 官方不推荐使用</code></pre><p>原文地址: <a href="https://links.jianshu.com/go?to=https%3A%2F%2Ftouka.dev%2Ftech%2Foh-my-zsh-china-mirror%2F" target="_blank" rel="noopener">https://touka.dev/tech/oh-my-zsh-china-mirror/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> zsh </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> zsh </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Spring Boot 2.x使用mybatis</title>
       <link href="/2021/07/05/spring-boot-mybatis/"/>
       <url>/2021/07/05/spring-boot-mybatis/</url>
