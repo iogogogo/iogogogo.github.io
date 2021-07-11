@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://iogogogo.gitee.io/"/>
-  <updated>2021-07-05T15:48:10.925Z</updated>
+  <updated>2021-07-11T11:15:30.476Z</updated>
   <id>http://iogogogo.gitee.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring Boot分离jar打包，归档压缩包</title>
+    <link href="http://iogogogo.gitee.io/2021/07/11/spring-boot-incr-pkg/"/>
+    <id>http://iogogogo.gitee.io/2021/07/11/spring-boot-incr-pkg/</id>
+    <published>2021-07-11T03:24:43.000Z</published>
+    <updated>2021-07-11T11:15:30.476Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;经常会遇到项目源代码和发布环境不在一起的情况，这时候就需要拷贝打包以后的文件到客户现场进行安装，Spring Boot提供了&lt;code&gt;spring-boot-maven-plugin&lt;/code&gt;这个插件，在执行&lt;code&gt;mvn
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Spring Boot" scheme="http://iogogogo.gitee.io/categories/Spring-Boot/"/>
+    
+    
+      <category term="Maven" scheme="http://iogogogo.gitee.io/tags/Maven/"/>
+    
+      <category term="Spring Boot" scheme="http://iogogogo.gitee.io/tags/Spring-Boot/"/>
+    
+  </entry>
   
   <entry>
     <title>oh-my-zsh国内镜像安装和更新方法</title>
@@ -457,7 +486,7 @@
     <link href="http://iogogogo.gitee.io/2020/07/25/map-sort/"/>
     <id>http://iogogogo.gitee.io/2020/07/25/map-sort/</id>
     <published>2020-07-25T04:21:58.000Z</published>
-    <updated>2021-07-05T14:31:47.576Z</updated>
+    <updated>2021-07-11T05:17:50.610Z</updated>
     
     <summary type="html">
     
@@ -476,7 +505,7 @@
       <category term="Java" scheme="http://iogogogo.gitee.io/categories/Java/"/>
     
     
-      <category term="map" scheme="http://iogogogo.gitee.io/tags/map/"/>
+      <category term="HashMap" scheme="http://iogogogo.gitee.io/tags/HashMap/"/>
     
   </entry>
   
@@ -532,34 +561,6 @@
     
     
       <category term="MySQL" scheme="http://iogogogo.gitee.io/tags/MySQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【转】How can I prevent gson from converting integers to doubles</title>
-    <link href="http://iogogogo.gitee.io/2020/06/28/gson-how-can-i-prevent-gson-from-converting-integers-to-doubles/"/>
-    <id>http://iogogogo.gitee.io/2020/06/28/gson-how-can-i-prevent-gson-from-converting-integers-to-doubles/</id>
-    <published>2020-06-28T02:17:53.000Z</published>
-    <updated>2021-07-05T14:31:47.569Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;处理Gson中，json转换map造成的int变double的问题。&lt;/p&gt;
-&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Gson" scheme="http://iogogogo.gitee.io/categories/Gson/"/>
-    
-    
-      <category term="Gson" scheme="http://iogogogo.gitee.io/tags/Gson/"/>
     
   </entry>
   
