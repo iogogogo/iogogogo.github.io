@@ -467,11 +467,18 @@
 <p>一个项目可以由多个服务（容器）关联而成，Compose 面向项目进行管理，通过子命令对项目中的一组容器进行便捷地生命周期管理。</p>
 <p>Compose 项目由 Python 编写，实现上调用了 Docker 服务提供的 API 来对容器进行管理。因此，只要所操作的平台支持 Docker API，就可以在其上利用 Compose 来进行编排管理。</p>
 <h3 id="docker-compose安装"><a href="#docker-compose安装" class="headerlink" title="docker-compose安装"></a>docker-compose安装</h3><p>docker-compose 是 Docker 的独立产品，因此需要安装 Docker 之后在单独安装 Docker Compose 。</p>
+<blockquote>
+<p>要安装其他版本的 Compose，请替换 v2.2.2。</p>
+</blockquote>
 <pre class=" language-shell"><code class="language-shell">#下载
-sudo curl -L https://github.com/docker/compose/releases/download/1.20.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
-#安装
+
+#赋予二进制文件执行权限
 chmod +x /usr/local/bin/docker-compose
+
+# 创建软链
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 # 显示docker-compose版本
 docker-compose version
