@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>阿牛的博客</title>
+  
+  <subtitle>阿牛的博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://iogogogo.github.io/"/>
+  <updated>2024-07-01T12:39:43.061Z</updated>
+  <id>http://iogogogo.github.io/</id>
+  
+  <author>
+    <name>阿牛</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git配置多个SSH-Key</title>
+    <link href="http://iogogogo.github.io/2023/03/12/ssh-key-multiple/"/>
+    <id>http://iogogogo.github.io/2023/03/12/ssh-key-multiple/</id>
+    <published>2023-03-12T07:49:31.000Z</published>
+    <updated>2024-07-01T12:39:43.061Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Git" scheme="http://iogogogo.github.io/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="http://iogogogo.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mkdocs安装与配置</title>
+    <link href="http://iogogogo.github.io/2023/03/12/blog-mkdocs-install-configure/"/>
+    <id>http://iogogogo.github.io/2023/03/12/blog-mkdocs-install-configure/</id>
+    <published>2023-03-12T04:30:02.000Z</published>
+    <updated>2024-07-01T12:30:37.355Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;上篇文档介绍了hexo的建站与基础配置，hexo适合做博客日志平台，不适合做帮助系统。所以最后又看了mkdocs，最后经过评审选择了mkdocs作为帮助系统的写作平台。&lt;/p&gt;
+&lt;h2 id=&quot;什么是MkDocs&quot;&gt;&lt;a href=&quot;#什么是MkDocs&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博客选型" scheme="http://iogogogo.github.io/categories/%E5%8D%9A%E5%AE%A2%E9%80%89%E5%9E%8B/"/>
+    
+    
+      <category term="博客选型" scheme="http://iogogogo.github.io/tags/%E5%8D%9A%E5%AE%A2%E9%80%89%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo安装与配置</title>
+    <link href="http://iogogogo.github.io/2023/03/11/blog-hexo-install-configure/"/>
+    <id>http://iogogogo.github.io/2023/03/11/blog-hexo-install-configure/</id>
+    <published>2023-03-11T10:30:19.000Z</published>
+    <updated>2024-07-01T12:30:37.346Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近产品在做帮助手册的编写，在技术选型上有几个大概的方向，倾向于开源或者自建搭建一套类似的写作平台，经过一周左右的调研，找了几个开源产品和于前端开发沟通，最终选择使用开源的工具进行建站写作，Nginx代理帮助静态资源展示。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其中核心的诉求有几个
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博客选型" scheme="http://iogogogo.github.io/categories/%E5%8D%9A%E5%AE%A2%E9%80%89%E5%9E%8B/"/>
+    
+    
+      <category term="博客选型" scheme="http://iogogogo.github.io/tags/%E5%8D%9A%E5%AE%A2%E9%80%89%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>oh-my-zsh国内镜像安装和更新方法</title>
+    <link href="http://iogogogo.github.io/2021/07/05/china-mirrors-oh-my-zsh/"/>
+    <id>http://iogogogo.github.io/2021/07/05/china-mirrors-oh-my-zsh/</id>
+    <published>2021-07-05T15:43:13.000Z</published>
+    <updated>2024-07-01T12:30:37.369Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;安装依赖&quot;&gt;&lt;a href=&quot;#安装依赖&quot; class=&quot;headerlink&quot; title=&quot;安装依赖&quot;&gt;&lt;/a&gt;安装依赖&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;git&lt;/li&gt;
+&lt;li&gt;zsh&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;安装git&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="zsh" scheme="http://iogogogo.github.io/categories/zsh/"/>
+    
+    
+      <category term="zsh" scheme="http://iogogogo.github.io/tags/zsh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring Boot 2.x使用mybatis</title>
+    <link href="http://iogogogo.github.io/2021/07/05/spring-boot-mybatis/"/>
+    <id>http://iogogogo.github.io/2021/07/05/spring-boot-mybatis/</id>
+    <published>2021-07-05T07:49:31.000Z</published>
+    <updated>2024-07-01T12:41:05.759Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;orm框架的本质是简化编程中操作数据库的编码，现在我用的比较多的有两个，一个是宣称可以不用写一句SQL的hibernate，一个是可以灵活调试动态sql的mybatis,两者各有特点，在企业级系统开发中可以根据需求灵活使用。&lt;/p&gt;
+&lt;h1 id=&quot;使用注解版&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Spring Boot" scheme="http://iogogogo.github.io/categories/Spring-Boot/"/>
+    
+    
+      <category term="Spring Boot" scheme="http://iogogogo.github.io/tags/Spring-Boot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL时间戳和时间的获取/相互转换/格式化</title>
+    <link href="http://iogogogo.github.io/2021/06/23/mysql-datetime-func/"/>
+    <id>http://iogogogo.github.io/2021/06/23/mysql-datetime-func/</id>
+    <published>2021-06-23T15:39:37.000Z</published>
+    <updated>2024-07-01T12:30:37.376Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;MySQL时间戳和时间的获取-相互转换-格式化&quot;&gt;&lt;a href=&quot;#MySQL时间戳和时间的获取-相互转换-格式化&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="MySQL" scheme="http://iogogogo.github.io/categories/MySQL/"/>
+    
+    
+      <category term="MySQL" scheme="http://iogogogo.github.io/tags/MySQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java8 list分页</title>
+    <link href="http://iogogogo.github.io/2021/04/11/java8-list-partition/"/>
+    <id>http://iogogogo.github.io/2021/04/11/java8-list-partition/</id>
+    <published>2021-04-11T07:57:20.000Z</published>
+    <updated>2024-07-01T12:30:37.373Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;日常开发中经常遇到list分页的需求，在Java8之前都是使用subList进行截取，在Java8以后，有了新的选择，那就是使用stream，原理很简单，就是使用stream提供的&lt;code&gt;skip&lt;/code&gt;和&lt;code&gt;limit&lt;/code&gt;方法。&lt;/p&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Java" scheme="http://iogogogo.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Java8实现常用日期解析封装</title>
+    <link href="http://iogogogo.github.io/2021/04/02/java8-date-parser/"/>
+    <id>http://iogogogo.github.io/2021/04/02/java8-date-parser/</id>
+    <published>2021-04-02T13:06:32.000Z</published>
+    <updated>2024-07-01T12:30:37.373Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;项目上做ELT数据清洗的时候，经常会遇到各种各样的日期格式，使用logstash解析日期是可以指定多个pattern，logstash会按照顺序按个去匹配，直到匹配上则返回，自己写数据处理的时候，也有类似的需求，看了下logstash关于日期解析处理的源码，主要是使用&lt;co
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Java" scheme="http://iogogogo.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gitee Pages服务自动更新</title>
+    <link href="http://iogogogo.github.io/2021/04/02/giee-hexo-auto-update/"/>
+    <id>http://iogogogo.github.io/2021/04/02/giee-hexo-auto-update/</id>
+    <published>2021-04-02T01:46:26.000Z</published>
+    <updated>2024-07-01T12:30:37.371Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;参考地址1：&lt;a href=&quot;https://yezhechenyang.gitee.io/2020/100714980.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;【Hexo】Gitee
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="http://iogogogo.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Java计算cron最近执行周期</title>
+    <link href="http://iogogogo.github.io/2021/04/02/java-cron-calc-cycle/"/>
+    <id>http://iogogogo.github.io/2021/04/02/java-cron-calc-cycle/</id>
+    <published>2021-04-02T01:32:27.000Z</published>
+    <updated>2024-07-01T12:30:37.372Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;项目中使用cron表达式来作为定时调度的参数，又需要根据执行的周期来计算一些平均数据，所以需要根据cron表达式获取执行周期。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;quartz
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://iogogogo.github.io/categories/Java/"/>
+    
+    
+      <category term="cron" scheme="http://iogogogo.github.io/tags/cron/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>logstash修改默认时区为东八区</title>
+    <link href="http://iogogogo.github.io/2020/12/19/logstash-compile-md/"/>
+    <id>http://iogogogo.github.io/2020/12/19/logstash-compile-md/</id>
+    <published>2020-12-19T02:46:41.000Z</published>
+    <updated>2024-07-01T12:30:37.375Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;上一篇文章我们讲了&lt;code&gt;logstash-filter-date&lt;/code&gt;插件怎么支持纳秒并且进行编译，最后提到了一个时区问题，我们说说logstash默认的时区问题，这里主要涉及两个类&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;org.logstash.StringInterp
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="logstash" scheme="http://iogogogo.github.io/tags/logstash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>logstash日期插件支持纳秒</title>
+    <link href="http://iogogogo.github.io/2020/12/18/logstash-filter-date-compile/"/>
+    <id>http://iogogogo.github.io/2020/12/18/logstash-filter-date-compile/</id>
+    <published>2020-12-18T08:01:58.000Z</published>
+    <updated>2024-07-01T12:30:37.375Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近项目上遇到时间为纳秒的情况，用到logstash解析时是不支持纳秒的，这里提供一个思路就是自己修改logstash的日期插件，让他支持纳秒，具体涉及的插件是&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="logstash" scheme="http://iogogogo.github.io/tags/logstash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>logstash 启动脚本</title>
+    <link href="http://iogogogo.github.io/2020/12/09/lsboot/"/>
+    <id>http://iogogogo.github.io/2020/12/09/lsboot/</id>
+    <published>2020-12-09T06:42:09.000Z</published>
+    <updated>2024-07-01T12:30:37.375Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;logstash 通用启动脚本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token shebang
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Logstash" scheme="http://iogogogo.github.io/tags/Logstash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS 升级安装最新版git</title>
+    <link href="http://iogogogo.github.io/2020/09/01/soft-install-git/"/>
+    <id>http://iogogogo.github.io/2020/09/01/soft-install-git/</id>
+    <published>2020-09-01T08:27:13.000Z</published>
+    <updated>2024-07-01T12:30:37.377Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h2&gt;&lt;p&gt;安装必要依赖&lt;/p&gt;
+&lt;pre class=&quot; language-shell&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Git" scheme="http://iogogogo.github.io/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="http://iogogogo.github.io/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>maven.test.skip和skipTests的区别</title>
+    <link href="http://iogogogo.github.io/2020/08/20/maven-skip-test/"/>
+    <id>http://iogogogo.github.io/2020/08/20/maven-skip-test/</id>
+    <published>2020-08-20T14:15:07.000Z</published>
+    <updated>2024-07-01T12:30:37.376Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;DskipTests&quot;&gt;&lt;a href=&quot;#DskipTests&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Maven" scheme="http://iogogogo.github.io/categories/Maven/"/>
+    
+    
+      <category term="Maven" scheme="http://iogogogo.github.io/tags/Maven/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【转】Spring Kafka 笔记</title>
+    <link href="http://iogogogo.github.io/2020/08/17/spring-kafka-note/"/>
+    <id>http://iogogogo.github.io/2020/08/17/spring-kafka-note/</id>
+    <published>2020-08-17T14:41:29.000Z</published>
+    <updated>2024-07-01T12:30:37.379Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/c/0c9d83802b0c&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Kafka" scheme="http://iogogogo.github.io/categories/Kafka/"/>
+    
+      <category term="Spring" scheme="http://iogogogo.github.io/categories/Kafka/Spring/"/>
+    
+    
+      <category term="Kafka" scheme="http://iogogogo.github.io/tags/Kafka/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hadoop常用运维命令</title>
+    <link href="http://iogogogo.github.io/2020/08/03/hadoop-ops-command/"/>
+    <id>http://iogogogo.github.io/2020/08/03/hadoop-ops-command/</id>
+    <published>2020-08-03T09:44:57.000Z</published>
+    <updated>2024-07-01T12:30:37.371Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一、HADOOP集群启动&quot;&gt;&lt;a href=&quot;#一、HADOOP集群启动&quot; class=&quot;headerlink&quot; title=&quot;一、HADOOP集群启动&quot;&gt;&lt;/a&gt;一、HADOOP集群启动&lt;/h2&gt;&lt;h3 id=&quot;1-格式化zk&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hadoop" scheme="http://iogogogo.github.io/categories/Hadoop/"/>
+    
+    
+      <category term="Hadoop" scheme="http://iogogogo.github.io/tags/Hadoop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redis查看集群信息以及key分布非slot</title>
+    <link href="http://iogogogo.github.io/2020/07/29/redis-cluster-info/"/>
+    <id>http://iogogogo.github.io/2020/07/29/redis-cluster-info/</id>
+    <published>2020-07-29T08:08:34.000Z</published>
+    <updated>2024-07-01T12:30:37.377Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;进入redis集群&quot;&gt;&lt;a href=&quot;#进入redis集群&quot; class=&quot;headerlink&quot; title=&quot;进入redis集群&quot;&gt;&lt;/a&gt;进入redis集群&lt;/h2&gt;&lt;pre class=&quot; language-shell&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Redis" scheme="http://iogogogo.github.io/categories/Redis/"/>
+    
+    
+      <category term="Redis" scheme="http://iogogogo.github.io/tags/Redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Guava中的CaseFormat</title>
+    <link href="http://iogogogo.github.io/2020/07/25/guava-case-format/"/>
+    <id>http://iogogogo.github.io/2020/07/25/guava-case-format/</id>
+    <published>2020-07-25T05:47:19.000Z</published>
+    <updated>2024-07-01T12:30:37.371Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在数据库中，按照阿里巴巴java开发手册，数据库字段全部小写并且按照&lt;code&gt;_&lt;/code&gt;进行单词之间的分割，但是我们&lt;code&gt;Java&lt;/code&gt;中的命名风格又是按照驼峰方式，一般返回给前端的&lt;code&gt;DTO&lt;/code&gt;对象也按照驼峰方式，前端同学在对所有列
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Guava" scheme="http://iogogogo.github.io/categories/Guava/"/>
+    
+    
+      <category term="Guava" scheme="http://iogogogo.github.io/tags/Guava/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Map对key或者value进行排序</title>
+    <link href="http://iogogogo.github.io/2020/07/25/map-sort/"/>
+    <id>http://iogogogo.github.io/2020/07/25/map-sort/</id>
+    <published>2020-07-25T04:21:58.000Z</published>
+    <updated>2024-07-01T12:30:37.375Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;开发中偶尔会遇到一些比较特殊的需求，比如对一个map进行排序，并且是对key或者value进行排序，那么我们可以用Java8中提供的&lt;code&gt;stream&lt;/code&gt;来进行实现&lt;/p&gt;
+&lt;h2 id=&quot;排序工具类&quot;&gt;&lt;a href=&quot;#排序工具类&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://iogogogo.github.io/categories/Java/"/>
+    
+    
+      <category term="map" scheme="http://iogogogo.github.io/tags/map/"/>
+    
+  </entry>
+  
+</feed>
